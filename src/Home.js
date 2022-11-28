@@ -7,6 +7,7 @@ const Home = () => {
         { title: 'My new website', body: 'lorem ipsum...', author: 'mario', id: 1 },
         { title: 'Welcome party!', body: 'lorem ipsum...', author: 'yoshi', id: 2 },
         { title: 'Web dev top tips', body: 'lorem ipsum...', author: 'mario', id: 3 }
+        { title: 'Embedded dev top tips', body: 'lorem ipsum...', author: 'sergio', id: 3 }
     ]);
 
     const handleDelete= (id) => {
