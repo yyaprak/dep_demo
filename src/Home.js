@@ -8,7 +8,7 @@ const Home = () => {
         { title: 'Welcome party!', body: 'lorem ipsum...', author: 'yoshi', id: 2 },
         { title: 'Web dev top tips', body: 'lorem ipsum...', author: 'mario', id: 3 },
         { title: 'Embedded dev top tips', body: 'lorem ipsum...', author: 'ibrahim', id: 4 },
-        { title: 'Mobile dev top tips', body: 'lorem ipsum...', author: 'ibrahim', id: 5 }
+        { title: 'Mobile dev top tips', body: 'lorem ipsum...', author: 'yilmaz', id: 5 }
     ]);
 
     const handleDelete= (id) => {
