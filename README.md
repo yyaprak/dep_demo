@@ -73,5 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Example of project is running below link<br>
 https://mefayazilim.netlify.app/<br>
 
-### Final note is that. you must run json-server for fetching data from server<br>
-like that **http://localhost:8000/blogs**<br>
+### Final note is that. you must run json-server for fetching data the from server<br>
+npx json-server --watch data/db.json --port 8000 <br>
+my localhost json-server is running at 8000 port  **http://localhost:8000/blogs**<br>
