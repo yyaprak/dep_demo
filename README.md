@@ -70,5 +70,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-### example of code running below link
-https://mefayazilim.netlify.app/
+### Example of project is running below link<br>
+https://mefayazilim.netlify.app/<br>
+
+### Final note is that. you must run json-server for fetching data from server<br>
+like that **http://localhost:8000/blogs**<br>
