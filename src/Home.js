@@ -4,8 +4,8 @@ import useFetch from "./usefetch";
 
 const Home = () => {
 
-    const { data: blogs, isPending, error} = useFetch('http://localhost:8000/blogs')
-    
+    //const { data: blogs, isPending, error} = useFetch('http://localhost:8000/blogs')
+    const { data: blogs, isPending, error} = useFetch('https://github.com/yyaprak/dep_demo/blob/main/data/db.json')
     
     return (  
         

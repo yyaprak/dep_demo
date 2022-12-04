@@ -15,7 +15,9 @@ const Create = () => {
        
         setIsPending(true);
 
-       fetch('http://localhost:8000/blogs', {
+        
+       //fetch('http://localhost:8000/blogs', {
+        fetch('https://github.com/yyaprak/dep_demo/blob/main/data/db.json', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(blog)
