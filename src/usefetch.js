@@ -13,7 +13,7 @@ const useFetch = (url) => {
          fetch(url, { signal: abortCont.signal })
              .then(res => {
                  if(!res.ok){
-                     throw Error('could not fetch the data for that resource!!!');
+                     throw Error('could not fetch the data for that resource!!!_olmadi');
                  }
                  //console.log(res);
                  return res.json();
