@@ -17,7 +17,7 @@ const Create = () => {
 
         
        //fetch('http://localhost:8000/blogs', {
-        fetch('${process.env.PUBLIC_URL}/data/db.json', {
+        fetch('/data/db.json', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(blog)

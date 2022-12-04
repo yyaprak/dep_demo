@@ -5,12 +5,12 @@ const BlogDetails = () => {
 
     const { id } = useParams();
     //const { data: blog, error, isPending } = useFetch('http://localhost:8000/blogs/' + id);
-    const { data: blog, error, isPending } = useFetch('${process.env.PUBLIC_URL}/data/db.json' + id);
+    const { data: blog, error, isPending } = useFetch('/data/db.json' + id);
     const history = useHistory();
 
     const handleClick=() => {
         //fetch('http://localhost:8000/blogs/' + blog.id, {
-        fetch('${process.env.PUBLIC_URL}/data/db.json' + blog.id, {
+        fetch('/data/db.json' + blog.id, {
             method: 'DELETE'
         }).then(() => {
             history.push('/');

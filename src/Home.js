@@ -5,7 +5,7 @@ import useFetch from "./usefetch";
 const Home = () => {
 
     //const { data: blogs, isPending, error} = useFetch('http://localhost:8000/blogs')
-    const { data: blogs, isPending, error} = useFetch('${process.env.PUBLIC_URL}/data/db.json')
+    const { data: blogs, isPending, error} = useFetch('/data/db.json')
     
     return (  
         
